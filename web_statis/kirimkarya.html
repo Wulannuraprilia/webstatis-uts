@@ -1,0 +1,138 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleuts.css">
+    <link rel="icon" type="images/icon2" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/47939c4bb5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>LokaLiterasi.co</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Sacramento&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <!-- my js -->
+    <script src="JavaScript.js"></script>
+  </head>
+<body>
+
+<div class="grid-container">
+<div class="header">
+  <h2></h2>
+</div>
+
+<!--navbar-->
+<nav class="topnav">
+  <h3 class="navbar-logo"><b>LOKALITERASI.CO</b></h3>
+  
+<div class="navbar-nav">
+  <a class="nav-link" href="UTS_Wulan Nur Aprilia.html">Home</a>
+  <div class="dropdown">
+  <a><button class="dropbtn">Tentang <i class="fa fa-caret-down"></i></button></a>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="profil.html#Lokaliterasi">Profil LokaLiterasi</a>
+    <a href="profil.html#Penulis">Profil Penulis</a>
+  </div></div>
+  <a href="galeri.html" >Galeri</a>
+  <a href="cerpen.html" >Cerpen</a>
+  <a href="puisi.html" >Puisi</a>
+  <a href="serba.html" >Serba - Serbi</a>
+  <a href="#Kontak" >Kontak</a>
+  <a href="kirimkarya.html" >Kirim Karya</a>
+</div>
+
+<div class="navbar-extra">
+  <a href="#" id="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+  <a href="#" id="humberger-menu"><i class="fa-solid fa-bars"></i></a>
+</div>
+</nav>
+
+<div class="row">
+  <section id="Lokaliterasi">
+  <div class="column" style="background-color:white">
+    <section>
+    <div class="box">
+    <div class="box2">
+        <h3 style="text-align: center; font-size: 200%;"><b>Kirim Karya</b></h3>
+        <p style="text-align: justify; padding-left: 8%; padding-right: 10%; padding-top: 5%;" >
+            1.	Karya belum pernah dipublikasikan.<br><br>
+            2.	Bila sebulan sejak pengiriman karya tidak dimuat atau tidak ada informasi maka otomatis naskah tersebut tidak lolos seleksi.<br><br>
+            3.	<b>Cerpen :</b> tema, gaya penulisan, aliran, dan lain – lain bebas, diketik dengan font Times New Roman 12, 1.5 spasi, format doc., bukan PDF.<br><br>
+            4.	<b>Puisi : </b>kirim 5-8 Puisi per pengiriman, tema bebas, , diketik dengan font Times New Roman 12, 1.5 spasi, format doc., bukan PDF.<br><br>
+            5.	<b>Serba – Serbi : </b>berisi tentang ulasan apa saja (musik, tempat, makanan, fashion, film, seni, gaya hidup, pengalaman, dll), diketik dengan font Times New Roman 12, 1.5 spasi, format doc., bukan PDF.<br><br>
+            6.	Tulisan dikirm ke email : <b>lokaliterasi@gmail.com </b> dengan subjek sesuai dengan jenis naskah <b>(CERPEN / PUISI / SERBA-SERBI).</b> <br><br>
+            7.	Penulis wajib menyertakan data diri : nama, akun media sosial, foto diri, dan tulisan singkat tentang diri.<br><br>
+            8.	Penulis boleh mengirimkan karya sebanyak-banyaknya. <br><br>
+        </p>
+        
+    </div>
+    </div>
+    </section>
+  </div>
+  
+
+  <div class="column2" style="background-color:white">
+    
+    <p style="text-align: center;"><span id="tanggalwaktu"></span></p>
+    <script>
+      var tw = new Date();
+      if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
+      else (a=tw.getTime());
+      tw.setTime(a);
+      var tahun= tw.getFullYear ();
+      var hari= tw.getDay ();
+      var bulan= tw.getMonth ();
+      var tanggal= tw.getDate ();
+      var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
+      var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember");
+      document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+ ". " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes() + (" WIB ");
+      </script>
+
+<br> 
+  <section id="Kontak">
+  <div class="box3" id="#Kontak">
+    <h3><b>Kontak Kami</b></h3>
+    <h4>0878 8851 2876</h4>
+    <p>lokaliterasi@gmail.com</p><br>
+    <p>Jalan Alur Laut, Koja, <br> Jakarta Utara 14230</p><br>
+    <a href="https://instagram.com/wulannrfrl_"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    <a href="https://youtube.com/@wulannurafrilia1012"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+    <a href="https://open.spotify.com/user/315y26d5jde3rc3yert3zdm4ofcu?si=nzoHDCygTGSJhUnH5kW4Hw"><i class="fa-brands fa-spotify fa-2xl"></i></a>
+    <a href="https://x.com/lokaarista"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+    <a href="https://instagram.com/wulannrfrl_"><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+    <br><br>
+  </div>
+  <br>
+  <div class="box4">
+  <!--HTML forms-->
+  <form style="font-family: bookman old style; padding-left: 30px; padding-right: 30px; font-size:small;">
+  <h3 style="text-align: center;"><b>Kirim Pesan</b></h3>
+  <label for="name">Nama:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <label for="almt">Pesan:</label><br>
+  <input type="text" id="almt" name="almt" value=""><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <br>
+  </div>
+  <br>
+  </section>
+</div>
+</div>
+ 
+
+<section id="Komentar"></section>
+<div class="footer">
+  
+<br>
+  
+  <p style="text-align: center;">&copy; 2023 Desain by Wulan Nur Aprilia</p>
+  <br><br>
+
+</div>
+</section>
+
+</body>
+</html>
+
+
