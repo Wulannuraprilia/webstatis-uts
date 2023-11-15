@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleuts.css">
-    <link rel="icon" type="images/icon2" href="images/fv.png">
+    <link rel="icon" type="UTS/images/icon2" href="images/fv.png">
     <script src="https://kit.fontawesome.com/47939c4bb5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>LokaLiterasi.co</title>
@@ -16,38 +16,62 @@
   </head>
 <body>
 
+<!--navbar-->
+<nav class="topnav">
+  <div class="Container">
+    <div class="section">
+       <div class="navB">
+          <div class="burgerSign">
+             <a href="#">
+                <i class="fas fa-bars"></i>
+             </a>
+          </div>
+       </div>
+    </div>
+  <div class="item_side_container">
+  <h3 class="navbar-logo" style="text-align: center;"><b>LOKALITERASI.CO</b></h3>
+  <img src="images/fv.png" width="150" height="150" style="display: flex; margin: auto;"><br>
+  <p style="text-align: center;">Karya Oleh :<br>
+  Wulan Nur Aprilia</p>
+  <img src="images/wulan.jpg" width="150" height="160" style="display: flex; margin: auto;"><br>
+  
+  <p style="text-align: center;">087888512876</p>
+  <p style="text-align: center; font-size: 80%;">wulannurafrilia@gmail.com</p>
+  <p style="text-align: center; font-size: 80%;">Ilmu Perpustakaan</p>
+  <p style="text-align: center; font-size: 80%;">UIN Syarif Hidayatullah</p><br>
+  </div>
+  </div>
+  <script>
+    document.querySelector(".burgerSign").addEventListener("click", function(){
+       document.querySelector("body").classList.toggle("active");
+    })
+  </script></a>
+</div>
+
+<div class="navbar-nav">
+<a class="nav-link" href="index.html#Menu">Home</a>
+<div class="dropdown">
+<a><button class="dropbtn">Tentang <i class="fa fa-caret-down"></i></button></a>
+<div id="myDropdown" class="dropdown-content">
+<a href="profil.html#Lokaliterasi">Profil LokaLiterasi</a>
+<a href="profil.html#Penulis">Profil Penulis</a>
+</div></div>
+<a href="galeri.html" >Galeri</a>
+<a href="cerpen.html" >Cerpen</a>
+<a href="puisi.html" >Puisi</a>
+<a href="serba.html" >Serba - Serbi</a>
+<a href="#Kontak" >Kontak</a>
+<a href="kirimkarya.html" >Kirim Karya</a>
+</div>
+<h3 class="navbar-logo"><b>LOKALITERASI.CO</b></h3>
+</nav>
+
 <div class="grid-container">
 <div class="header">
   <h2></h2>
 </div>
 
-<!--navbar-->
-<nav class="topnav">
-  <h3 class="navbar-logo"><b>LOKALITERASI.CO</b></h3>
-  
-<div class="navbar-nav">
-  <a class="nav-link" href="index.html">Home</a>
-  <div class="dropdown">
-  <a><button class="dropbtn">Tentang <i class="fa fa-caret-down"></i></button></a>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="profil.html#Lokaliterasi">Profil LokaLiterasi</a>
-    <a href="profil.html#Penulis">Profil Penulis</a>
-  </div></div>
-  <a href="galeri.html" >Galeri</a>
-  <a href="cerpen.html" >Cerpen</a>
-  <a href="puisi.html" >Puisi</a>
-  <a href="serba.html" >Serba - Serbi</a>
-  <a href="#Kontak" >Kontak</a>
-  <a href="kirimkarya.html" >Kirim Karya</a>
-</div>
-
-<div class="navbar-extra">
-  <a href="#" id="search"><i class="fa-solid fa-magnifying-glass"></i></a>
-  <a href="#" id="humberger-menu"><i class="fa-solid fa-bars"></i></a>
-</div>
-</nav>
-
-<div class="row">
+<div class="row" style="padding-left: 120px;">
   <section id="Menu">
   <div class="column" style="background-color:white">
     <div class="box"><img src="images/zaman1.jpg" style="float: left; margin: right; height: 250px; width: 280px;"> 
@@ -86,8 +110,26 @@
       </div>
     </div>
     <br>
+    <div class="box"><img src="images/feast.jpg" style="float: left; margin: right; height: 250px; width: 280px;"> 
+      <div class="box2">
+      <h3><b>.Feast, Pembawa Pesan Pemuda Dalam Lagu 'Kami Belum Tentu'</b></h3>
+      <h3> | Lagu |</h3>
+      <p>Lagu ini menyoroti persepsi tentang apatisnya anak muda Indonesia terhadap isu-isu nasional.</p><br>
+      <p style="color: rgb(178, 83, 83);"><a href="https://wulannuraprilia.github.io/webstatis/tugas7_Wulan%20Nur%20Aprilia.html">Baca selengkapnya... | <i class="fa-solid fa-arrow-right"></i></a></p>
+      </div>
+    </div>
+    <br>
+    <div class="box"><img src="images/nak.jpg" style="float: left; margin: right; height: 250px; width: 280px;"> 
+      <div class="box2">
+      <h3><b>'Saat Kau Telah Mengerti'
+        Cerita Ayah dan Putrinya</b></h3>
+      <h3> | Lagu |</h3>
+      <p>Virgoun meluncurkan lagu terbarunya yang berjudul 'Saat Kau Telah Mengerti', yang memiliki cerita dan makna yang sangat mendalam di baliknya.</p><br>
+      <p style="color: rgb(178, 83, 83);"><a href="https://wulannuraprilia.github.io/webstatis/tugas6_Wulan%20Nur%20Aprilia.html">Baca selengkapnya... | <i class="fa-solid fa-arrow-right"></i></a></p>
+      </div>
+    </div>
     <br><br>
-    
+    <a href="index2.html" class="box3" style="padding: auto; margin: auto; display: block; border:none; box-shadow: none;">Berikutnya... <i class="fa-solid fa-angles-right"></i></a>
   </div>
   </section>
 
@@ -110,9 +152,9 @@
 
 <br> 
   <div class="box3">
-  <h3><b>Ruang Kanvas</b></h3>
-  <marquee behavior="scroll" direction="left">
-    <a href="https://instagram.com/wulannrfrl_"><img src="images/1.jpg" width="250" height="270"></a>
+    <h3><b>Ruang Kanvas</b></h3>
+    <marquee behavior="scroll" direction="left">
+      <a href="https://instagram.com/wulannrfrl_"><img src="images/1.jpg" width="250" height="270"></a>
       <a href="https://instagram.com/wulannrfrl_"><img src="images/2.jpg" width="250" height="270"></a>
       <a href="https://instagram.com/wulannrfrl_"><img src="images/3.jpg" width="250" height="270"></a>
       <a href="https://instagram.com/wulannrfrl_"><img src="images/4.jpg" width="250" height="270"></a>
@@ -125,9 +167,9 @@
       <a href="https://instagram.com/wulannrfrl_"><img src="images/11.jpg" width="250" height="270"></a>
       <a href="https://instagram.com/wulannrfrl_"><img src="images/12.jpg" width="250" height="270"></a>
       <a href="https://instagram.com/wulannrfrl_"><img src="images/13.jpg" width="250" height="270"></a>
-    </marquee>
+      </marquee>
   </div>
-  <br>
+<br>
   <div class="box3">
     <h3><b>Ruang Musik</b></h3>
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/15yoqXxu3EKEMGdZMPGZXa?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
